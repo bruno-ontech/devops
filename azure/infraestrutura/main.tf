@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "main" {
 
 # Crie um aplicativo da web simples
 resource "azurerm_container_group" "webapp" {
-  name                = "Meu  WebApp"
+  name                = "Meu-WebApp"
   location           = azurerm_resource_group.main.location
   resource_group_name = azurerm_resource_group.main.name
   ip_address_type     = "Public"
