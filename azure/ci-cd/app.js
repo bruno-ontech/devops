@@ -16,13 +16,14 @@ app.use((req, res, next) => {
   next();
 });
 
+
 // Simple home page
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Web App CI/CD</h1>
-    <p>This app was deployed automatically!</p>
-    <p>Current time: ${new Date().toLocaleString()}</p>
-    <p>Total requests: ${requestCount}</p>
+    <h1>Webapp com CI/CI </h1>
+    <p>Este aplicativo foi implantado para CI/CD!</p>
+    <p>Hora atual: ${new Date().toLocaleString()}</p>
+    <p>Total de solicitações: ${requestCount}</p>
   `);
 });
 

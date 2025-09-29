@@ -1,11 +1,11 @@
 {
     "name": "meu-webapp-devops",
     "version": "1.0.0",
-    "description": "My  DevOps web app",
+    "description": "Meu  DevOps web app",
     "main": "app.js",
     "scripts": {
       "start": "node app.js",
-      "test": "echo 'Tests passed!'"
+      "test": "echo 'Testes passou!'"
     },
     "dependencies": {
       "express": "^4.18.2"
